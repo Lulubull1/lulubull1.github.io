@@ -1,0 +1,63 @@
+html{
+	font-family: Calibri;
+}
+
+
+header{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	height: 50px;
+	padding-top: 25px;
+}
+
+
+#conteneur-flex-meteo{
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+#niort{
+	display: flex;
+	justify-content: space-around;
+	background-color: grey;
+}
+
+
+#niort img{
+	width: 25%;
+}
+
+
+#rio{
+	display: flex;
+	justify-content: space-around;
+	background-color: grey;
+}
+
+
+#rio img{
+	width: 25%;
+}
+
+
+#reykjavik{
+	display: flex;
+	justify-content: space-around;
+	background-color: grey;
+}
+
+
+#reykjavik img{
+	width: 25%;
+}
+
+
+footer{
+	margin-top: 50px;
+	background-color: grey;
+}
